@@ -3,7 +3,7 @@
     "dev": "next dev",
     "build": "next build",
     "typecheck": "tsc --noEmit",
-    "verify": "npm run typecheck && node scripts/verify-api-contract.mjs",
+    "verify": "pnpm run typecheck && node scripts/verify-api-contract.mjs",
     "test": "node scripts/test-contract.mjs"
   },
   "dependencies": {
@@ -17,5 +17,6 @@
     "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
     "typescript": "^5.7.2"
-  }
+  },
+  "packageManager": "pnpm@11.7.0"
 }
