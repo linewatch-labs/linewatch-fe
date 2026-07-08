@@ -46,6 +46,6 @@ npm run build
 - `GET /api/v1/quality-events`
 - `GET /api/v1/machines/{id}/sensor-series`
 
-## 포트폴리오 포인트
+## 프로젝트 포인트
 
 LineWatch FE는 제조 현장의 품질 알림을 단순 테이블이 아니라 운영자가 바로 판단할 수 있는 워크플로우로 풀어낸 프로젝트입니다. 라인 상태, 이벤트 원인, 결함 점수, 센서 추이, 조치 상태를 하나의 제품 화면으로 연결했습니다.
