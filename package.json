@@ -3,7 +3,8 @@
     "dev": "next dev",
     "build": "next build",
     "typecheck": "tsc --noEmit",
-    "verify": "npm run typecheck && node scripts/verify-api-contract.mjs"
+    "verify": "npm run typecheck && node scripts/verify-api-contract.mjs",
+    "test": "node scripts/test-contract.mjs"
   },
   "dependencies": {
     "ky": "^1.7.5",
